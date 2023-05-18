@@ -1,0 +1,146 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+    background-color: orange;
+    padding: 10px;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.topcontent {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    height: 400px;
+}
+
+.RightImage {
+    width: 400px;
+    height: 250px;
+    
+}
+
+.RightImage img {
+    width: 100%;
+    height: auto;
+    border: solid orange;
+}
+
+.Leftheader {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    padding: 20px 100px 20px 50px;
+}
+
+.header2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: orange;
+}
+
+button {
+    color: #f9faf8;
+    background-color: navy;
+    border-radius: 10%;
+    font-size: 18px;
+    border: none;
+    padding: 5px 20px;
+}
+
+.MiddleContent {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    color: navy;
+    font-weight: bold ;
+  
+}
+
+.card img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    border-radius: 10%;
+    border: solid navy;
+    
+}
+.imagetitles {
+    padding: 5px ;
+}
+.somerando {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: navy;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bottomhead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #89cff0;
+    margin: 50px 200px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #89cff0;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
